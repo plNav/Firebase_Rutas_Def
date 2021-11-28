@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="521dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/userMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="none"
+            android:enabled="false"
+            android:backgroundTint="@android:color/transparent"
+            android:textAlignment="center"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+        <Button
+            android:id="@+id/butMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/butToMaps" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/butVerRutas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ver_mis_rutas" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/butVerRutasComunidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ver_rutas_comunidad" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/butSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/butSignOut" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

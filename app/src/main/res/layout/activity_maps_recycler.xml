@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <androidx.fragment.app.FragmentContainerView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map_recycler"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        tools:context=".MapsActivityRecycler"
+        tools:layout="@layout/activity_maps_recycler"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/btnStopMapRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:text="@string/terminar_ruta"
+        android:visibility="visible"
+        android:layout_margin="8dp"/>
+</LinearLayout>
+
+

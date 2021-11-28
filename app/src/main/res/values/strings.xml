@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="butToLogin">Iniciar Sesion</string>
+    <string name="butToRegister">Registrarse</string>
+    <string name="signInMail">Email</string>
+    <string name="signInPass">Password</string>
+    <string name="butSignOut">Desconectar</string>
+    <string name="butToMaps">Registrar Ruta</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="dialog_one_style_title">Seguro?</string>
+    <string name="dialog_one_style_message">message</string>
+    <string name="ver_mis_rutas">Ver mis rutas</string>
+    <string name="ver_rutas_comunidad">Ver rutas comunidad</string>
+    <string name="but_detalles">DETALLES</string>
+    <string name="title_activity_maps_recycler">MapsActivityRecycler</string>
+    <string name="terminar_ruta">TERMINAR RUTA</string>
+</resources>

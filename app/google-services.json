@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "71870534655",
+    "project_id": "fir-2832a",
+    "storage_bucket": "fir-2832a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71870534655:android:fce17f1b76fbac79a68dca",
+        "android_client_info": {
+          "package_name": "com.pablolop.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71870534655-2nprfrk4kg7c8jdcodsbsgu56ehovicn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH2lonir8d3_zRY9AjbaP4RWw54JwPoZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71870534655-2nprfrk4kg7c8jdcodsbsgu56ehovicn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
