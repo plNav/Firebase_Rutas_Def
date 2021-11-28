@@ -112,7 +112,7 @@ class MapsActivityRecycler :
             polylineOptions.add(pointLatLng[l])
         }
         polylineOptions.add(initEndPoint)
-            .width(10f)
+            .width(20f)
             .color(ContextCompat.getColor(this, android.R.color.holo_purple))
         val polyline : Polyline = mMap.addPolyline(polylineOptions)
     }

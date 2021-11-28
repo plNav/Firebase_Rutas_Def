@@ -15,6 +15,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="none"
+            android:enabled="false"
+            android:text="@string/sesion_iniciada_como"
+            android:backgroundTint="@android:color/transparent"
+            android:textAlignment="center"
+            />
+
         <EditText
             android:id="@+id/userMail"
             android:layout_width="match_parent"
@@ -54,7 +65,7 @@
             android:text="@string/ver_rutas_comunidad" />
         <Space
             android:layout_width="match_parent"
-            android:layout_height="30dp" />
+            android:layout_height="60dp" />
         <Button
             android:id="@+id/butSignOut"
             android:layout_width="match_parent"
